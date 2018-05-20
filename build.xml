@@ -8,16 +8,16 @@
 
     <target name="deploy" description="Deploys to staging">
         <echo message="Deploying ..."/>
-        <sf:deploy username="conrad0119@yahoo.com"
-                   password="4C*o09r#U809RpyIPdn3VACKPlz2cndBUQxUq"
+        <sf:deploy username=""
+                   password=""
                    serverurl="login.salesforce.com"
                    deployRoot="src" />
     </target>
 
     <target name="get" description="Retrieves metadata from the specified org">
         <echo message="Retrieving ..."/>
-        <sf:retrieve username="conrad0119@yahoo.com"
-                     password="4C*o09r#U809RpyIPdn3VACKPlz2cndBUQxUq"
+        <sf:retrieve username=""
+                     password=""
                      serverurl="login.salesforce.com"
                      retrieveTarget="src"
                      unpackaged="src/package.xml"/>
